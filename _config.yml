@@ -1,0 +1,7 @@
+title: Hello, CSIT!
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
