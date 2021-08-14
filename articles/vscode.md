@@ -22,7 +22,7 @@
 
 ## Где скачать
 
-Загрузить *VS Code* можно [здесь](https://code.visualstudio.com/). Сайт сам поймёт, какую операционную систему ты используешь и предложит соответствующую версию.
+Загрузить *VS Code* можно <a href="https://code.visualstudio.com/" target="_blank">здесь</a>. Сайт сам поймёт, какую операционную систему ты используешь и предложит соответствующую версию.
 
 ## Настройка для работы с C++
 
@@ -60,7 +60,7 @@
 
 ## Работа с Git
 
-*Visual Studio* даёт всё необходимое для удобной работы с системой контроля версий. Здесь ты можешь спокойно пуллить, коммитить, пушить, мерджить и т.д. Самый простой, на мой взгляд, способ это делать — использовать командную строку `Ctrl + Shift + P`. Здесь вы можете найти любое действие в системе контроля версий. Все они начинаются с `Git: `, а дальше идёт название действия, например, `Git: Pull` или `Git: View File History`.
+*Visual Studio* даёт всё необходимое для удобной работы с системой контроля версий. Здесь ты можешь спокойно пуллить, коммитить, пушить, мерджить и т.д. Самый простой, на мой взгляд, способ это делать — использовать командную строку `Ctrl + Shift + P`. Здесь вы можете найти любое действие в системе контроля версий. Все они начинаются с `Git:`, а дальше идёт название действия, например, `Git: Pull` или `Git: View File History`.
 
 Другим способом работы с Git является вкладка `View: Show Source Control`, где можно делать всё то же, но используя графический интерфейс.
 
@@ -85,19 +85,19 @@
 3. Нажать на кнопку *Install*;
 4. Если тема не применилась автоматически, или ты хочешь выбрать другую среди установленных, достаточно открыть командную строку (`Ctrl + Shift + P` на *Windows* и *Linux* или `Cmd + Shift + P` на *Mac*), после чего найти параметр `Preferences: Color Theme` и выбрать желаемую тему.
 
-Мои любимые темы: [Auy](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme), [Horizon](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode) и [Xcode 12](https://marketplace.visualstudio.com/items?itemName=MateoCERQUETELLA.xcode-12-theme).
+Мои любимые темы: <a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu" target="_blank">Auy</a>, <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme" target="_blank">GitHub</a>, <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode" target="_blank">Horizon</a> и <a href="https://marketplace.visualstudio.com/items?itemName=MateoCERQUETELLA.xcode-12-theme" target="_blank">Xcode 12</a>.
 
 ### Иконки файлов
 
 Точно так же, как и темы, ты можешь изменить иконки во встроенном проводнике — боковой панели, которая отображает все файлы рабочей директории. Для этого достаточно просто написать `icons` в поиске расширений и установить расширение с понравившимися иконками. Если иконки не применились автоматически, или ты хочешь выбрать другую среди установленных, достаточно открыть командную строку и в параметре `Preferences: File Icon Theme` выбрать желаемую тему иконок.
 
-Мои любимые наборы иконок: [Seti](https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons), [Mac icons](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons-mac) и [Material Theme icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons).
+Мои любимые наборы иконок: <a href="https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons" target="_blank">Seti</a>, <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons-mac" target="_blank">Mac icons</a> и <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons" target="_blank">Material Theme icons</a>.
 
 ### Шрифт
 
 В *VS Code* ты можешь поменять шрифт кода с помощью параметра `Editor: Font Family` в настройках, где перечисляются шрифты по приоритету. Например, у меня это `'Fira code', Menlo, Monaco, 'Courier New', monospace`, что означает, что будет использоваться шрифт *Fira Code*, но если он не найдётся среди установленных, будет использоваться *Menlo* и так далее. Чтобы использовать свой шрифт, просто добавь его первым в эту строку.
 
-Мои любимые шрифты: [Fira Code](https://github.com/tonsky/FiraCode) и [JetBrains Mono](https://www.jetbrains.com/ru-ru/lp/mono/).
+Мои любимые шрифты: <a href="https://github.com/tonsky/FiraCode" target="_blank">Fira Code</a> и <a href="https://www.jetbrains.com/ru-ru/lp/mono/" target="_blank">JetBrains Mono</a>.
 
 Оба этих шрифта поддерживают лигатуры. Что это? Лигатура — это знак, объединяющий два или более символа. В коде они применяются для отображения операторов и помогают уменьшить шум путем слияния символов и удаления лишних деталей и в определённых случаях уравновесить пространство между символами.
 
@@ -111,7 +111,7 @@
 
 На самом деле, в *VS Code* есть ещё огромное количество настроек, которые вы можете найти... в настройках. Поэтому, если вам что-то не нравится, вы всегда можете поискать этот параметр в настройках приложения или в интернете — скорее всего ты не первый, кто захотел изменить это, и ты сможешь найти готовое решение.
 
-И ешё, все свои настройки ты можешь синхронизировать через свой аккаунт GitHub, чтобы иметь единые настройки на компьютере дома и в университете. [Статья об этом](https://code.visualstudio.com/docs/editor/settings-sync).
+И ешё, все свои настройки ты можешь синхронизировать через свой аккаунт GitHub, чтобы иметь единые настройки на компьютере дома и в университете. <a href="https://code.visualstudio.com/docs/editor/settings-sync" target="_blank">Статья об этом</a>.
 
 ---
 
