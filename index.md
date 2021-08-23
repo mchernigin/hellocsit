@@ -1,3 +1,11 @@
+---
+layout: default
+title: Главная
+nav_order: 1
+has_children: false
+permalink: /
+---
+
 # Главная
 
 ## Последние статьи

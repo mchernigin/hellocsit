@@ -1,5 +1,8 @@
 title: Hello, CSIT!
 
+remote_theme: MichaelX-code/just-the-docs
+# color_scheme: dark
+
 exclude:
   - CNAME
   - Gemfile
