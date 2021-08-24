@@ -1,6 +1,7 @@
 ---
 layout: default
 nav_order: 3
+last_modified_date: "2021-08-24"
 ---
 
 # Visual Studio Code
@@ -128,8 +129,6 @@ https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`;
 Для этого в настройках введи `Files: Exclude`, и добавь туда значение `*.exe`
 (аналогично для любого другого расширения).
 
-[//]: # (TODO: ## Настройка для работы с LaTeX)
-
 ## Работа с Git
 
 *Visual Studio Code* даёт всё необходимое для удобной работы с системой контроля
@@ -238,8 +237,4 @@ https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`;
 <a href="https://code.visualstudio.com/docs/editor/settings-sync"
 target="_blank">Статья об этом</a>.
 
----
-
-Дата публикации: 13.08.2021
-
-Авторы: [Майкл Чернигин](../authors/michael_chernigin.md)
+> Автор: [Майкл Чернигин](../authors/michael_chernigin.md)

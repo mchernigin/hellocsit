@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Майкл Чернигин
 parent: Авторы
 nav_order: 1
 ---

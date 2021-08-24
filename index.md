@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Главная
 nav_order: 1
 has_children: false
 permalink: /
@@ -12,5 +11,3 @@ permalink: /
 
 - [Полезные ресурсы для учёбы](articles/resources.md)
 - [Visual Studio Code](articles/vscode.md)
-
-## Темы
