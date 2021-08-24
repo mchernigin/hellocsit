@@ -1,20 +1,17 @@
-# Visual Studio Code
+---
+layout: default
+nav_order: 3
+last_modified_date: "2021-08-24"
+---
 
-- [Что такое Visual Studio Code?](#что-такое-visual-studio-code)
-- [Где скачать](#где-скачать)
-- [Настройка для работы с C++](#настройка-для-работы-с-c)
-  - [Windows](#windows)
-  - [Linux](#linux)
-  - [Mac](#mac)
-- [Несколько советов для удобства](#несколько-советов-для-удобства)
-- [Работа с Git](#работа-с-git)
-  - [VS Code в браузере](#vs-code-в-браузере)
-- [Кастомизация](#кастомизация)
-  - [Темы](#темы)
-  - [Иконки файлов](#иконки-файлов)
-  - [Шрифт](#шрифт)
-  - [Скрытие панелей](#скрытие-панелей)
-  - [Настройки](#настройки)
+# Visual Studio Code
+{: .no_toc }
+
+## Содержание
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Что такое Visual Studio Code?
 
@@ -132,8 +129,6 @@ https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`;
 Для этого в настройках введи `Files: Exclude`, и добавь туда значение `*.exe`
 (аналогично для любого другого расширения).
 
-[//]: # (TODO: ## Настройка для работы с LaTeX)
-
 ## Работа с Git
 
 *Visual Studio Code* даёт всё необходимое для удобной работы с системой контроля
@@ -242,8 +237,4 @@ https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`;
 <a href="https://code.visualstudio.com/docs/editor/settings-sync"
 target="_blank">Статья об этом</a>.
 
----
-
-Дата публикации: 13.08.2021
-
-Авторы: [Майкл Чернигин](../authors/michael_chernigin.md)
+> Автор: [Майкл Чернигин](../authors/michael_chernigin.md)

@@ -1,4 +1,16 @@
+---
+layout: default
+nav_order: 2
+---
+
 # Полезные ресурсы для учёбы
+{: .no_toc }
+
+## Содержание
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Общее
 
