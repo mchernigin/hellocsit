@@ -1,3 +1,9 @@
+---
+layout: default
+parent: Авторы
+nav_order: 1
+---
+
 # Майкл Чернигин
 
 > Сайт-блог: [michaelx.blog](https://michaelx.blog).
