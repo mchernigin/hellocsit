@@ -105,9 +105,10 @@
     следующее:
 
         ```json
-        "name": "latexmk",
-            "args": [
+        {
+            "name": "latexmk",
             "command": "latexmk",
+            "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -115,8 +116,10 @@
                 "-outdir=%OUTDIR%",
                 "%DOC%",
                 "-shell-escape",
+                "-c",
             ],
             "env": {}
+        },
           ```
 
     5. Теперь можно проверить полноценную функциональность. Для оформления
