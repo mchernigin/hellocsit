@@ -34,13 +34,12 @@ last_modified_date: "2021-08-30"
 необходимости можно поменять стандартное место установки, однако автор не
 гарантирует работоспособность в таком случае (это *Windows*, в нем может быть
 всё, что угодно). В случае с *TeXLive* также имеет смысл отказаться от установки
-*TeXWorks*, так как пользоваться мы будем *Visual Studio Code*:
-
-    ![TeXLive](../assets/vscode/windows-texlive1.png)
+*TeXWorks*, убрав последнюю галочку "*Установить редактор TeXworks*", так как
+пользоваться мы будем *Visual Studio Code*.
 
     P.S. Установка занимает значительное время, так что готовься к долгому и
     томительному ожиданию прекрасного
-    <img src="../assets/vscode/rs.png" alt="drawing" width="20"/>.
+    <img src="/../assets/latex/rs.png" alt="drawing" width="20"/>.
 
 1. Теперь установим плагин *LaTeX Workshop* для *Visual Studio Code*. Для этого
 в меню необходимо открыть вкладку `Extensions`. Получить доступ к ней можно в
@@ -119,7 +118,7 @@ last_modified_date: "2021-08-30"
     строке поиска после уже написанного пишем `recipes`, тем самым находим
     необходимую настройку и жмем `Edit in settings.json`.
 
-        ![TeXLive](../assets/vscode/settings.png)
+        ![TeXLive](/../assets/latex/settings.png)
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
     всех рецептов. В выбранный вами ранее рецепт (можно во все) нужно добавить
@@ -162,7 +161,7 @@ last_modified_date: "2021-08-30"
 
     P.S. Установка занимает значительное время, так что готовься к долгому и
     томительному ожиданию прекрасного
-    <img src="../assets/vscode/rs.png" alt="drawing" width="20"/>.
+    <img src="/../assets/latex/rs.png" alt="drawing" width="20"/>.
 
 1. Теперь установим плагин *LaTeX Workshop* для *Visual Studio Code*. Для этого
 в меню необходимо открыть вкладку `Extensions`. Получить доступ к ней можно в
@@ -217,7 +216,7 @@ last_modified_date: "2021-08-30"
        строке поиска после уже написанного пишем `recipes`, тем самым находим
        необходимую настройку и жмем `Edit in settings.json`.
 
-        ![TeXLive](../assets/vscode/settings.png)
+        ![TeXLive](/../assets/latex/settings.png)
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
       всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -256,7 +255,7 @@ last_modified_date: "2021-08-30"
 
     P.S. Установка занимает значительное время, так что готовься к долгому и
     томительному ожиданию прекрасного
-    <img src="../assets/vscode/rs.png" alt="drawing" width="20"/>.
+    <img src="/../assets/latex/rs.png" alt="drawing" width="20"/>.
 
 1. Теперь установим плагин *LaTeX Workshop* для *Visual Studio Code*. Для этого
 в меню необходимо открыть вкладку `Extensions`. Получить доступ к ней можно в
@@ -307,7 +306,7 @@ last_modified_date: "2021-08-30"
        Нажимаем на шестеренку, после чего выбираем `Extension Settings`. В
        строке поиска после уже написанного пишем `recipes`, тем самым находим
        необходимую настройку и жмем `Edit in settings.json`.
-        ![TeXLive](../assets/vscode/settings.png)
+        ![TeXLive](/../assets/latex/settings.png)
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
        всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -337,4 +336,4 @@ last_modified_date: "2021-08-30"
        Осталось поместить содержимое в папку и собрать
        аналогичным образом, как в пункте [3](#tex-mac-anchor).
 
-> Автор: [Никита Рыданов](../authors/nikita_rydanov.md)
+> Автор: [Никита Рыданов](/../authors/nikita_rydanov.md)
