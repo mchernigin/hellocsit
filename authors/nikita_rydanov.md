@@ -1,3 +1,9 @@
+---
+layout: default
+parent: Авторы
+nav_order: 2
+---
+
 # Никита Рыданов
 
 ## Информация
