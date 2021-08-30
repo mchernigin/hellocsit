@@ -120,10 +120,11 @@ last_modified_date: "2021-08-30"
     1. Теперь установим пакет *pygmentize* с помощью команды
     `pip3 install pygments` в терминале (`Win + R` -> `cmd`).
 
-    1. Далее переходим в `Extensions`, находим в списке `LaTeX Workshops`.
-    Нажимаем на шестеренку, после чего выбираем `Extension Settings`. В
-    строке поиска после уже написанного пишем `recipes`, тем самым находим
-    необходимую настройку и жмем `Edit in settings.json`.
+    1. Далее возвращаемся к *Visual Studio Code*. Переходим в раздел
+       `Extensions`, находим в списке `LaTeX Workshops`. Нажимаем на шестеренку,
+       после чего выбираем `Extension Settings`. В строке поиска после уже
+       написанного пишем `recipes`, тем самым находим необходимую настройку и
+       жмем `Edit in settings.json`.
 
         ![TeXLive](/../assets/latex/settings.png)
 
@@ -143,7 +144,6 @@ last_modified_date: "2021-08-30"
                 "-outdir=%OUTDIR%",
                 "%DOC%",
                 "-shell-escape",
-                "-c",
             ],
             "env": {}
         },
@@ -218,12 +218,13 @@ last_modified_date: "2021-08-30"
 
     1. Установить пакет *pygmentize* с помощью `pip3 install pygments`.
 
-    1. Далее переходим в `Extensions`, находим в списке `LaTeX Workshops`.
-       Нажимаем на шестеренку, после чего выбираем `Extension Settings`. В
-       строке поиска после уже написанного пишем `recipes`, тем самым находим
-       необходимую настройку и жмем `Edit in settings.json`.
+    1. Далее возвращаемся к *Visual Studio Code*. Переходим в раздел
+       `Extensions`, находим в списке `LaTeX Workshops`. Нажимаем на шестеренку,
+       после чего выбираем `Extension Settings`. В строке поиска после уже
+       написанного пишем `recipes`, тем самым находим необходимую настройку и
+       жмем `Edit in settings.json`.
 
-        ![TeXLive](/../assets/latex/settings.png)
+       ![TeXLive](/../assets/latex/settings.png)
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
       всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -231,9 +232,10 @@ last_modified_date: "2021-08-30"
       следующее:
 
         ```json
-        "name": "latexmk",
-            "args": [
+        {
+            "name": "latexmk",
             "command": "latexmk",
+            "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -243,6 +245,7 @@ last_modified_date: "2021-08-30"
                 "-shell-escape",
             ],
             "env": {}
+        },
         ```
 
     1. Теперь можно проверить полноценную функциональность. Для оформления
@@ -309,11 +312,13 @@ last_modified_date: "2021-08-30"
 
     1. Затем установить пакет *pygmentize* с помощью `pip3 install pygments`.
 
-    1. Далее переходим в `Extensions`, находим в списке `LaTeX Workshops`.
-       Нажимаем на шестеренку, после чего выбираем `Extension Settings`. В
-       строке поиска после уже написанного пишем `recipes`, тем самым находим
-       необходимую настройку и жмем `Edit in settings.json`.
-        ![TeXLive](/../assets/latex/settings.png)
+    1. Далее возвращаемся к *Visual Studio Code*. Переходим в раздел
+       `Extensions`, находим в списке `LaTeX Workshops`. Нажимаем на шестеренку,
+       после чего выбираем `Extension Settings`. В строке поиска после уже
+       написанного пишем `recipes`, тем самым находим необходимую настройку и
+       жмем `Edit in settings.json`. 
+       
+       ![TeXLive](/../assets/latex/settings.png)
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
        всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -321,9 +326,10 @@ last_modified_date: "2021-08-30"
        следующее:
 
         ```json
-        "name": "latexmk",
-            "args": [
+        {
+            "name": "latexmk",
             "command": "latexmk",
+            "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -333,6 +339,7 @@ last_modified_date: "2021-08-30"
                 "-shell-escape",
             ],
             "env": {}
+        },
         ```
 
     1. Теперь можно проверить полноценную функциональность. Для оформления
