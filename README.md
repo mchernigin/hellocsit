@@ -37,10 +37,11 @@
 1. В самом конце статьи нужно указать себя в качестве автора:
 
 	```md
-   > Автор: [ТВОЁ ИМЯ](/../authors/YOUR_NAME.md)
+   > Автор: [ТВОЁ ИМЯ](../authors/YOUR_NAME.md)
    ```
 
 1. Протестировать сайт локально можно, используя
    [этот туториал](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekylltesting-your-github-pages-site-locally-with-jekyll);
+
 1. Если всё готово, создать *Pull request*, добавив в *Reviewers* хотя бы одного
    человека.
