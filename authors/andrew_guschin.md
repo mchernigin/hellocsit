@@ -1,3 +1,9 @@
+---
+layout: default
+parent: Авторы
+nav_order: 3
+---
+
 # Андрей Гущин
 
 ## Информация
@@ -6,6 +12,6 @@
 
 ## Ссылки
 
-- Telegram: https://t.me/vasthecat
-- GitHub: https://github.com/saintruler
-- E-Mail: guschin.drew@gmail.com
+- [Telegram](https://t.me/vasthecat)
+- [GitHub](https://github.com/saintruler)
+- [E-Mail](guschin.drew@gmail.com)

@@ -1,3 +1,9 @@
+---
+layout: default
+parent: Авторы
+nav_order: 4
+---
+
 # Паша Кузичкин
 
 ## Информация
