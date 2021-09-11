@@ -110,8 +110,22 @@ Stage.
 
 Перед фиксированием изменений полезно проверить состояние репозитория. Команда
 `git status` выведет список состояний файлов в текущей папке.
+```sh
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   file.txt
 
-![git status](../assets/git/status.png)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   another.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	third.txt
+```
 
 Таким образом можно проверить все ли изменения будут зафиксированы.
 
