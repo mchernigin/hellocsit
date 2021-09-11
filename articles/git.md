@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 50
 description: "Немного про git"
 last_modified_date: "2021-09-11"
 ---
