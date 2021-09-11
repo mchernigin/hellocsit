@@ -1,8 +1,8 @@
 ---
 layout: default
 nav_order: 3
-description: "Гайд по Visual Studio Code: от установки до тонкой настройки."
-last_modified_date: "2021-08-24"
+description: "Немного про git"
+last_modified_date: "2021-09-11"
 ---
 
 # Git
