@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 30
 description: "Гайд по Visual Studio Code: от установки до тонкой настройки."
 last_modified_date: "2021-08-24"
 ---
