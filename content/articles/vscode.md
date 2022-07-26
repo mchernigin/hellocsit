@@ -6,13 +6,6 @@ last_modified_date: "2021-08-24"
 ---
 
 # Visual Studio Code
-{: .no_toc }
-
-## Содержание
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## Что такое Visual Studio Code?
 
@@ -28,7 +21,7 @@ last_modified_date: "2021-08-24"
 ## Где скачать
 
 Загрузить *VS Code* можно
-<a href="https://code.visualstudio.com/" target="_blank">здесь</a>. Сайт сам
+{{< LinkBlank title="здесь" href="https://code.visualstudio.com/" >}}. Сайт сам
 поймёт, какую операционную систему ты используешь, и предложит соответствующую
 версию. При установке рекомендуем поставить все галочки и не менять язык на
 русский, так как вся статья написана для англоязычной версии.
@@ -163,7 +156,7 @@ last_modified_date: "2021-08-24"
 Например, я предпочитаю минималистичный вид, поэтому мой *VS Code* на данный
 момент выглядит вот так:
 
-![My VS Code screenshot](../assets/vscode/my_vscode.png)
+![My VS Code screenshot]({{< resource url=/vscode/my_vscode.png >}})
 
 ### Темы
 
@@ -180,10 +173,10 @@ last_modified_date: "2021-08-24"
 `Preferences: Color Theme` и выбрать желаемую тему.
 
 Мои любимые темы:
-<a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu" target="_blank">Auy</a>,
-<a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme" target="_blank">GitHub</a>,
-<a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode" target="_blank">Horizon</a> и
-<a href="https://marketplace.visualstudio.com/items?itemName=MateoCERQUETELLA.xcode-12-theme" target="_blank">Xcode 12</a>.
+{{< LinkBlank title="Auy" href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu" >}},
+{{< LinkBlank title="GitHub" href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme" >}},
+{{< LinkBlank title="Horizon" href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode" >}} и
+{{< LinkBlank title="Xcode 12" href="https://marketplace.visualstudio.com/items?itemName=MateoCERQUETELLA.xcode-12-theme" >}}.
 
 ### Иконки файлов
 
@@ -195,9 +188,9 @@ last_modified_date: "2021-08-24"
 параметре `Preferences: File Icon Theme` выбрать желаемую тему иконок.
 
 Мои любимые наборы иконок:
-<a href="https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons" target="_blank">Seti</a>,
-<a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons-mac" target="_blank">Mac icons</a> и
-<a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons" target="_blank">Material Theme icons</a>.
+{{< LinkBlank title="Seti" href="https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons" >}},
+{{< LinkBlank title="Mac icons" href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-icons-mac" >}} и
+{{< LinkBlank title="Material Theme icons" href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons" >}}.
 
 ### Шрифт
 
@@ -209,8 +202,8 @@ last_modified_date: "2021-08-24"
 использовать свой шрифт, просто добавь его первым в эту строку.
 
 Мои любимые шрифты:
-<a href="https://github.com/tonsky/FiraCode" target="_blank">Fira Code</a> и
-<a href="https://www.jetbrains.com/ru-ru/lp/mono/" target="_blank">JetBrains Mono</a>.
+{{< LinkBlank title="Fira Code" href="https://github.com/tonsky/FiraCode" >}} и
+{{< LinkBlank title="JetBrains Mono" href="https://www.jetbrains.com/ru-ru/lp/mono/" >}}.
 
 Оба этих шрифта поддерживают лигатуры. Что это? Лигатура — это знак,
 объединяющий два или более символа. В коде они применяются для отображения
@@ -218,7 +211,7 @@ last_modified_date: "2021-08-24"
 деталей и в определённых случаях уравновесить пространство между символами.
 Вот несколько примеров:
 
-![Ligatures example](../assets/vscode/ligatures.png)
+![Ligatures example]({{< resource url=/vscode/ligatures.png >}})
 
 ### Скрытие панелей
 
@@ -238,7 +231,6 @@ last_modified_date: "2021-08-24"
 
 И ешё, все свои настройки ты можешь синхронизировать через свой аккаунт
 *GitHub*, чтобы иметь единые настройки на компьютере дома и в университете.
-<a href="https://code.visualstudio.com/docs/editor/settings-sync"
-target="_blank">Статья об этом</a>.
+{{< LinkBlank title="Статья об этом" href="https://code.visualstudio.com/docs/editor/settings-sync" >}}.
 
-> Автор: [Майкл Чернигин](../authors/michael_chernigin.md)
+> Автор: [Майкл Чернигин]({{< relref "/authors/michael_chernigin" >}})

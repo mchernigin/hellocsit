@@ -6,18 +6,17 @@ permalink: /
 ---
 
 # Главная
-{: .fs-9 }
 
 Это небольшой сайт, созданный специально для первокурсников КНиИТа. Здесь ты
 можешь найти интересные статьи, которые помогут тебе получить максимум из
 первого курса.
-{: .fs-6 .fw-300 }
 
 ---
 
 ## Последние статьи
 
-- [Полезные ресурсы для учёбы](articles/resources.md)
-- [Visual Studio Code](articles/vscode.md)
-- [Git](articles/git.md)
-- [LaTeX](articles/latex.md)
+- [Полезные ресурсы для учёбы]({{< relref "/articles/resources" >}})
+- [Visual Studio Code]({{< relref "/articles/vscode" >}})
+- [Git]({{< relref "/articles/git" >}})
+- [LaTeX]({{< relref "/articles/latex" >}})
+

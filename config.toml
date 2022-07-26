@@ -1,0 +1,21 @@
+baseURL = 'https://hellocsit.ru/'
+title = 'Hello, CSIT!'
+theme = 'hugo-book'
+
+[params]
+  BookLogo = 'logo.ico'
+  BookMenuBundle = '/menu'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 4
+

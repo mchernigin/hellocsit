@@ -1,5 +1,7 @@
 *.DS_Store
 *.vscode
-_site
-Gemfile.lock
-.jekyll-metadata
+public
+resources
+*.lock
+publish.sh
+publi.sh

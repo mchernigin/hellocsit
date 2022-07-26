@@ -5,13 +5,6 @@ last_modified_date: "2021-08-30"
 ---
 
 # LaTeX
-{: .no_toc }
-
-## Содержание
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## Вступление
 
@@ -31,8 +24,8 @@ last_modified_date: "2021-08-30"
 
 1. Для начала необходимо загрузить актуальную версию одного из нескольких
 дистрибутивов *LaTeX*. Основные из них --- это
-<a href="http://www.tug.org/texlive/acquire-netinstall.html" target="_blank">*TeXLive*</a>
-и <a href="https://miktex.org/download" target="_blank">*MikTeX*</a>.
+{{< LinkBlank title="*TeXLive*" href="http://www.tug.org/texlive/acquire-netinstall.html" >}}
+и {{< LinkBlank title="*MikTeX*" href="https://miktex.org/download" >}}.
 Далее будем считать, что был выбран *TeXLive*, однако в целом процесс
 установки аналогичен.
 
@@ -46,7 +39,7 @@ last_modified_date: "2021-08-30"
 
     P.S. Установка занимает значительное время, так что готовься к долгому и
     томительному ожиданию прекрасного
-    <img src="/../assets/latex/rs.png" alt="drawing" width="20"/>.
+    <img src="{{ .Site.BaseURL }}/latex/rs.png" alt="drawing" width="20"/>.
 
 1. Теперь установим плагин *LaTeX Workshop* для *Visual Studio Code*. Для этого
 в меню необходимо открыть вкладку `Extensions`. Получить доступ к ней можно в
@@ -90,7 +83,7 @@ last_modified_date: "2021-08-30"
 его. Нам понадобится:
 
     1. Установить Python. Для этого переходим на
-    <a href="https://www.python.org/downloads/release/python-396/https://www.python.org/downloads/release/python-396/" target="_blank">официальный сайт</a>,
+    {{< LinkBlank title="официальный сайт" href="https://www.python.org/downloads/release/python-396/https://www.python.org/downloads/release/python-396/" >}},
     после чего загружаем версию, соответствующую нашей системе
     `Windows Installer (32/64-bit)`. Если не уверены в битности вашей системы,
     посмотреть ее можно в разделе "Свойства системы" *Windows*.
@@ -126,7 +119,7 @@ last_modified_date: "2021-08-30"
        написанного пишем `recipes`, тем самым находим необходимую настройку и
        жмем `Edit in settings.json`.
 
-        ![TeXLive](/../assets/latex/settings.png)
+        ![TeXLive]({{< resource url="/latex/settings.png" >}})
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
     всех рецептов. В выбранный вами ранее рецепт (можно во все) нужно добавить
@@ -152,9 +145,9 @@ last_modified_date: "2021-08-30"
     1. Теперь можно проверить полноценную функциональность. Для оформления
     разного вида работ студентам *ПИ* и *ФИИТ* предоставлен шаблон
     *LaTeX*-проекта. Его можно загрузить на
-    <a href="https://course.sgu.ru" target="_blank">портале</a>, в курсе "*Подг.
+    {{< LinkBlank title="портале" href="https://course.sgu.ru" >}}, в курсе "*Подг.
     публикаций*" или
-    <a href="https://github.com/WrongWayboyyyy/textemplate" target="_blank">тут</a>.
+    {{< LinkBlank title="тут" href="https://github.com/WrongWayboyyyy/textemplate" >}}.
     Осталось поместить содержимое в папку и собрать аналогичным образом, как в
     пункте [4](#tex-win-anchor).
 
@@ -224,7 +217,7 @@ last_modified_date: "2021-08-30"
        написанного пишем `recipes`, тем самым находим необходимую настройку и
        жмем `Edit in settings.json`.
 
-       ![TeXLive](/../assets/latex/settings.png)
+       ![TeXLive]({{< resource url=/latex/settings.png >}})
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
       всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -251,9 +244,9 @@ last_modified_date: "2021-08-30"
     1. Теперь можно проверить полноценную функциональность. Для оформления
     разного вида работ студентам *ПИ* и *ФИИТ* предоставлен шаблон
     *LaTeX*-проекта. Его можно загрузить на
-    <a href="https://course.sgu.ru" target="_blank">портале</a>, в курсе "*Подг.
+    {{< LinkBlank title="портале" href="https://course.sgu.ru" >}}, в курсе "*Подг.
     публикаций*" или
-    <a href="https://github.com/WrongWayboyyyy/textemplate" target="_blank">тут</a>.
+    {{< LinkBlank title="тут" href="https://github.com/WrongWayboyyyy/textemplate" >}}.
     Осталось поместить содержимое в папку и собрать аналогичным образом, как в
     пункте [3](#tex-linux-anchor).
 
@@ -318,7 +311,7 @@ last_modified_date: "2021-08-30"
        написанного пишем `recipes`, тем самым находим необходимую настройку и
        жмем `Edit in settings.json`. 
        
-       ![TeXLive](/../assets/latex/settings.png)
+       ![TeXLive]({{< resource url=/latex/settings.png >}})
 
     1. Находим в файле `"latex-workshop.latex.tools"`. Ниже располагается список
        всех рецептов. В выбранный ранее вам рецепт (можно во все) нужно добавить
@@ -345,12 +338,12 @@ last_modified_date: "2021-08-30"
     1. Теперь можно проверить полноценную функциональность. Для оформления
     разного вида работ студентам *ПИ* и *ФИИТ* предоставлен шаблон
     *LaTeX*-проекта. Его можно загрузить на
-    <a href="https://course.sgu.ru" target="_blank">портале</a>, в курсе "*Подг.
+    {{< LinkBlank title="портале" href="https://course.sgu.ru" >}}, в курсе "*Подг.
     публикаций*" или
-    <a href="https://github.com/WrongWayboyyyy/textemplate" target="_blank">тут</a>.
+    {{< LinkBlank title="тут" href="https://github.com/WrongWayboyyyy/textemplate" >}}.
     Осталось поместить содержимое в папку и собрать аналогичным образом, как в
     пункте [3](#tex-mac-anchor).
 
 [//]: # (TODO: Написать ещё полезных советов)
 
-> Автор: [Никита Рыданов](/../authors/nikita_rydanov.md)
+> Автор: [Никита Рыданов]({{< relref "/authors/nikita_rydanov" >}})
